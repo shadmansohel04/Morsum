@@ -1,0 +1,84 @@
+{
+  "expo": {
+    "name": "Morsum",
+    "slug": "morsum",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/APP.png",
+    "scheme": "Morsum",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.shadman2354.morsum",
+      "buildNumber": "24",
+      "infoPlist": {
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true,
+          "NSExceptionDomains": {
+            "34.130.248.52": {
+              "NSExceptionAllowsInsecureHTTPLoads": true,
+              "NSIncludesSubdomains": true
+            }
+          }
+        },
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSPhotoLibraryUsageDescription": "This app needs access to your photo library so you can upload images.",
+        "NSPhotoLibraryAddUsageDescription": "This app needs access to save your captured photos.",
+        "NSCameraUsageDescription": "This app requires camera access to allow users to capture photos for posts.",
+        "NSLocationWhenInUseUsageDescription": "This app uses your location to show nearby friends and recipes on the map.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "This app may access your location in the background to keep your position updated with friends.",
+        "NSMicrophoneUsageDescription": "This app needs microphone access for recording audio and videos.",
+        "NSUserTrackingUsageDescription": "This app uses your IDFA to deliver personalized notifications and ads.",
+        "UIBackgroundModes": [
+          "fetch",
+          "remote-notification"
+        ],
+        "UNUserNotificationCenterUsageDescription": "This app sends you notifications about new activity and updates."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/APP.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/APP.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/APP.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      "expo-web-browser",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/APP.png",
+          "color": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "5475a986-e133-4250-b4c0-ea918d089135"
+      },
+      "backendURI": "https://foodskitest.onrender.com",
+      "foodMSUri": "http://34.130.248.52:3000"
+    }
+  }
+}
