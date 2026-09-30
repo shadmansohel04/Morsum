@@ -1,7 +1,0 @@
-mvn clean package -DskipTests
-docker build -t java-application .
-docker tag java-application:latest shadman2354/java-application
-docker login
-docker push shadman2354/java-application
-
-//OPTIONAL docker run -p8080:8080 -d java-application
