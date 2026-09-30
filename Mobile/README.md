@@ -1,50 +1,26 @@
-# Welcome to your Expo app 👋
+# Morsum Mobile - Food Recognition Application
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A React Native mobile application built with Expo, designed for real-time food recognition using device camera and real-time location features.
 
-## Get started
+## Overview
 
-1. Install dependencies
+Morsum Mobile is a cross-platform mobile application that allows users to:
+- Capture or upload food images
+- Get AI-powered food recognition and recommendations
+- Share food experiences with the community
+- Access location-based food suggestions
+- Manage user profiles and preferences
 
-   ```bash
-   npm install
-   ```
+## Technology Stack
 
-2. Start the app
+- **React 19.1.0** - UI framework
+- **React Native 0.81.4** - Mobile platform
+- **Expo 54.0.2** - Development and deployment platform
+- **TypeScript ~5.9.2** - Type-safe JavaScript
+- **Expo Router ~6.0.1** - File-based routing
+- **React Native Maps 1.20.1** - Map functionality
+- **React Navigation ^7.1.6** - Navigation management
+- **Reanimated ~4.1.0** - Smooth animations
+- **Async Storage 2.2.0** - Local data persistence
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Project Structure
